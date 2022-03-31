@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Insurance">
+  <test name ="Regresssion">
+    <classes>
+      <class  name="TestNgTutorial.HomeInsurance">
+        <methods>
+            <include name="API.*"/>
+        </methods>
+         </class>
+       <class name="TestNgTutorial.VehicleInsurance"/>
+       <class name="TestNgTutorial.LifeInsurance"/>
+       <class name="TestNgTutorial.gardenInsurance">
+         <methods>
+           <exclude name="Mobile.*"/>       
+         </methods>
+        </class>
+            
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

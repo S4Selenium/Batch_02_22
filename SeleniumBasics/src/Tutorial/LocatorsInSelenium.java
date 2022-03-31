@@ -67,7 +67,7 @@ public class LocatorsInSelenium {
 
 
 /*
- * NOTES
+ * NOTES ABOUT LOCATORS
  * 
  * Different formats of identifying elements in the UI using Xpath's.. hope this
  * helps !!

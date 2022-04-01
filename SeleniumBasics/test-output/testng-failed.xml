@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="TestNgTutorial.TestNgDP">
+      <class name="Tutorial.ActionsInSelenium">
         <methods>
-          <include name="Login" invocation-numbers="1"/>
+          <include name="ActDemo"/>
         </methods>
-      </class> <!-- TestNgTutorial.TestNgDP -->
+      </class> <!-- Tutorial.ActionsInSelenium -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

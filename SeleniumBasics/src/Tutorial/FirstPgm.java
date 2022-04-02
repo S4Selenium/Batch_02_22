@@ -19,8 +19,6 @@ public class FirstPgm {
 	     System.out.println(driver.getTitle());
 	     //driver.getCurrentUrl();
 	     System.out.println(driver.getCurrentUrl());
-		//driver.navigate().to("https://www.google.co.in/");
-		//driver.close();
 		 driver.quit();
 	    // driver.resetInputState();
 		// firefox and edge class has no knowledge of this

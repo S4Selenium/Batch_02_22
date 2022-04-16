@@ -10,8 +10,8 @@ public class ActionsInSelenium {
 	
 	//MoveToElement=MoveHover
 	//DoubleClick
-	//Context click=RightClick
-	//drag and drop
+	//Context click=RightClick  home work
+	//drag and drop home work
 	@Test
 	public void ActDemo() throws InterruptedException
 	{
@@ -35,7 +35,7 @@ public class ActionsInSelenium {
 		//.perform();
 		//build().perform();
 		//can execute this only with build();
-		//driver.findElement(By.className("xtXmba"))
+		
 		
 		
 	}
